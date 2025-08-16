@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Terraform build dir
+.terraform/
+
+# Terraform state (never commit)
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Local tfvars (if any)
+*.tfvars
+*.tfvars.json
+
+# Zip/build artifacts
+*.zip
+parse_tmp/
