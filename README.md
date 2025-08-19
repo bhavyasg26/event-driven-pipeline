@@ -118,6 +118,5 @@ terraform destroy
 }
 
 
----
 
 
